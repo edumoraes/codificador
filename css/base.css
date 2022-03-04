@@ -1,0 +1,99 @@
+:root {
+  
+  /*Dark Blue--------------------------------------------------------*/
+  --dark-blue-100: #609ED4;
+  --dark-blue-200: #356EA9;
+  --dark-blue-300: #0A3871;
+  --dark-blue-400: #072B61;
+  --dark-blue-500: #052051;
+
+  /*Dark Blue--------------------------------------------------------*/
+  --light-blue-100: #F3F5FC;
+  --light-blue-200: #EFF1FA;
+  --light-blue-300: #E9ECF8;
+  --light-blue-400: #AAB2D5;
+  --light-blue-500: #757FB2;
+
+  /*Gray-------------------------------------------------------------*/
+  --gray-100: #CED4DA;
+  --gray-200: #ADB5BD;
+  --gray-300: #868E96;
+  --gray-400: #495057;
+  --gray-500: #343A40;
+
+  --font-inter: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: var(--font-inter);
+  background-color: var(--light-blue-100);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2em;
+  color: var(--gray-500);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: var(--gray-400);
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.button__primary {
+  color: var(--light-blue-100);
+  background-color: var(--dark-blue-300);
+  padding: 1.5rem;
+  border: none;
+  border-radius: 1.5rem;
+}
+
+.button__primary:hover {
+  background-color: var(--dark-blue-400);
+}
+
+.button__secondary {
+  color: var(--dark-blue-300);
+  background-color: transparent;
+  padding: 1.5rem;
+  outline: solid 1px;
+  outline-offset: -1px;
+  border: none;
+  border-radius: 1.5rem;
+}
+
+.button__secondary:hover {
+  background-color: var(--light-blue-200);
+}
+
+@media screen and (min-width: 1440px) {
+  
+  main {
+    flex-direction: row;
+    padding: 2.5rem 1rem;
+    gap: 5rem;
+    position: relative;
+    margin: auto;
+    width: 1440px;
+    height: 720px;
+  }
+}

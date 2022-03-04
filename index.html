@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/input.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/output.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <title>Codificador</title>
+
+</head>
+<body>
+  
+  <main>
+    
+    <header class="header">
+      <div class="container">
+        <nav>
+          <a href="">
+            <img src="src/alura-logo.svg" alt="Alura">
+          </a>
+        </nav>
+      </div>
+    </header>
+    
+    <section>
+      <div class="container">
+
+        <div class="input__container">
+          
+          <textarea type="text" name="text" id="text" placeholder="Digite seu texto" class="input__text" cols="30" rows="8"></textarea>
+          
+          <div class="input__submit">
+
+            <div class="label__container">
+              <spam><img src="src/bi_exclamation-circle-fill.svg" alt=""></spam><label for="" class="input__label">Apenas letras minúsculas e sem acento.</label>
+            </div>
+            <div class="group__button">
+              
+              <input type="submit" value="Criptografar" id="criptografar" class="button__primary">
+    
+              <input type="submit" value="Descriptografar" id="descriptografar" class="button__secondary">
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        
+        <div class="output__container">
+          
+          <div class="mensagem">
+            
+            <div class="mensagem__vazia">
+              <img src="src/High quality products 1 1.svg" alt="">
+              <h2>Nenhuma mensagem encontrada</h2>
+              <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            
+            <div class="mensagem__resposta esconder">
+              <p id="resposta">Digite um texto que você deseja criptografar ou descriptografar.</p>
+              <button class="button__secondary" id="copiar">Copiar</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  
+</body>
+
+<script src="main.js"></script>
+
+</html>
+
+
+
+
+
+<!--
+  <main>
+  
+    <section class="center crypto">
+      <section class="input-text">
+        <form action="">
+          <input class="text-area" type="text">
+          <br>
+          <span>!</span><caption>Apenas letras minúsculas e sem acento.</caption>
+          <br>
+          <button>Criptografar</button>
+          <button class="light-bt">Descriptografar</button>
+        </form>
+      </section>
+  
+      <section class="output-text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error magnam est doloremque accusantium. Expedita nostrum dolorem dolorum eaque architecto placeat iure animi iste. Enim, commodi iusto. Esse, aperiam et.</p>
+        <button>Copiar</button>
+      </section>
+    </section>
+  
+  </main>
+
+-->
