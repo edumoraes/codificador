@@ -32,9 +32,15 @@
   display: none;
 }
 
-.mensagem__resposta p {
+.mensagem__resposta textarea {
   font-size: 1.5rem;
   line-height: 1.3em;
+  color: var(--gray-400);
+  box-sizing: border-box;
+  border: none;
+  resize: vertical;
+  overflow: auto;
+  background: none;
 }
 
 @media screen and (min-width: 1440px) {
